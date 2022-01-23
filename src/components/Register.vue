@@ -15,10 +15,6 @@
 export default({
   name: 'Register',
   props: {
-    token: {
-      type: String,
-      default: '',
-    }
   },
   data: () => ({
     username: sessionStorage.getItem('@web/name'),
@@ -39,7 +35,7 @@ export default({
       var raw = JSON.stringify({
         "name": this.Nome,
         "password": this.Password,
-        "role": "Nkkaiser"
+        "role": "Admin"
       });
 
       var requestOptions = {

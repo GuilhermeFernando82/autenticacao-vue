@@ -13,10 +13,6 @@
 export default({
   name: 'Login',
   props: {
-    token: {
-      type: String,
-      default: '',  
-    }
   },
   data: () => ({
     Nome: '',
@@ -31,7 +27,7 @@ export default({
       var raw = JSON.stringify({
         "name": this.Nome,
         "password": this.Password,
-        "role": "Nkkaiser"
+        "role": "Admin"
       });
 
       var requestOptions = {
