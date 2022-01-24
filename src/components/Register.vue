@@ -4,7 +4,7 @@
     <h1>Bem vindo {{ username }}</h1>
     <h1>Cadastro de Usuários</h1>
       <input type="text" class="form-control" v-model="Name" placeholder="Nome"/><br>
-      <input type="text" class="form-control" v-model="Password" placeholder="Senha"/><br>
+      <input type="password" class="form-control" v-model="Password" placeholder="Senha"/><br>
       <input type="text" class="form-control" v-model="Role" placeholder="Role"/><br>
       <button class="btn-success" @click="register">Cadastrar</button>
      </div>

@@ -3,7 +3,7 @@
     <div class="container clearfix">
     <h1>Login</h1>
       <input type="text" class="form-control" v-model="Nome" placeholder="Nome"/><br>
-      <input type="text" class="form-control" v-model="Password" placeholder="Senha"/><br>
+      <input type="password" class="form-control" v-model="Password" placeholder="Senha"/><br>
       <button class="btn-success" @click="login">Login</button>
      </div>
   </div>
