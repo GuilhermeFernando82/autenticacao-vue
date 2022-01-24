@@ -33,7 +33,7 @@ export default({
       myHeaders.append("Authorization", "Bearer "+sessionStorage.getItem('@web/token')+"");
       myHeaders.append("Content-Type", "application/json");
       var raw = JSON.stringify({
-        "name": this.Nome,
+        "name": this.Name,
         "password": this.Password,
         "role": "Admin"
       });
